@@ -10,9 +10,8 @@ import Profile from "./Pages/Profile";
 function App() {
   return (
     <div className="App">
-      <Router basename="/park-nxt">
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-        <Route path="/park-nxt" component={Home} />
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<Signup />} /> 
           <Route path="/login" element={<Login />} /> 
