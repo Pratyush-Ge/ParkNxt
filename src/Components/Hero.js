@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Doctor from "../Assets/hero2.png";
+import hero2 from "../Assets/hero2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareParking, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
@@ -53,7 +53,7 @@ function Hero() {
         </div>
 
         <div className="hero-image-section">
-          <img className="hero-image1" src={Doctor} alt="Doctor" />
+          <img className="hero-image1" src={hero2} alt="image" />
         </div>
       </div>
 
