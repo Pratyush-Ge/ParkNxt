@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/car1.png";
+import car1 from "../Assets/car1.png";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="about-section" id="about">
       <div className="about-image-content">
-        <img src={Doctor} alt="Doctor Group" className="about-image1" />
+        <img src={car1} alt="Doctor Group" className="about-image1" />
       </div>
 
       <div className="about-text-content">
@@ -37,7 +37,7 @@ function About() {
           description="We're passionate about environmental sustainability. By reducing traffic congestion, we're doing our part to create cleaner, greener cities."
         />
 
-<SolutionStep
+        <SolutionStep
           title="Local Partnerships"
           description="We collaborate with local businesses and parking space providers to create a network of accessible parking options."
         />
